@@ -1,14 +1,49 @@
 header{
-	height: 20vh;
+	height: 25vh;
 	background-color: #2D2D2D;
+	background-image: url("../../../../img/fond-header.svg");
+	background-repeat:no-repeat;
+	background-position:center center;
+}
+header img{
+	margin-top: 4vh;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 19vh;
+    margin-bottom: 1.6vh;
+
 }
 header nav{
 	height: 5vh;
 	background-color: #F8AF14;
 	
 }
-header nav div{
+header nav .linkMain{
+	border:1px #acacac solid;
+	display: block;
 	text-align: center;
-	/*width: 10vw;*/
-	border-color: 1px black;
+	height: 5vh;
+	padding-top: 10px;
+	transition: 0.7s;
+}
+header nav .linkMain a{
+	color: #2D2D2D;
+}
+
+header nav .linkMain:hover{
+	background-color: #2D2D2D;
+
+	
+}
+header nav .linkMain:hover a{
+	color: #F8AF14;
+}
+
+footer{
+	/*height: 25vh;*/
+	margin-top: 50vh;
+	height: 20vh;
+
+	background-color: #2D2D2D;
 }
