@@ -1,0 +1,14 @@
+header{
+	height: 20vh;
+	background-color: #2D2D2D;
+}
+header nav{
+	height: 5vh;
+	background-color: #F8AF14;
+	
+}
+header nav div{
+	text-align: center;
+	/*width: 10vw;*/
+	border-color: 1px black;
+}
