@@ -3,6 +3,9 @@ include ("header.html");
 ?>
 
 
+<?php
+include ("auteur.html");
+?>
 
 
 

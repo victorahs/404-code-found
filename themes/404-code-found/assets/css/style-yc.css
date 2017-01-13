@@ -1,5 +1,5 @@
 header{
-	height: 25vh;
+	height: 29.6vh;
 	background-color: #2D2D2D;
 	background-image: url("../../../../img/fond-header.svg");
 	background-repeat:no-repeat;
@@ -26,6 +26,7 @@ header nav .linkMain{
 	height: 5vh;
 	padding-top: 10px;
 	transition: 0.7s;
+	background-color: #F8AF14;
 }
 header nav .linkMain a{
 	color: #2D2D2D;
@@ -39,11 +40,126 @@ header nav .linkMain:hover{
 header nav .linkMain:hover a{
 	color: #F8AF14;
 }
+header nav a{
+	font-size: 1.3em;
+}
 
 footer{
-	/*height: 25vh;*/
-	margin-top: 50vh;
-	height: 20vh;
+	/*position: absolute;
+    width: 100vW;
+    bottom: 0;*/
 
 	background-color: #2D2D2D;
+}
+footer .logoLink img  {
+	margin:1.6%;
+}
+footer .iconLink img{
+	margin: 3%;
+    margin-top: 4%;
+	width: 26%;
+}
+
+footer #logo-GEDN{
+	width: 5.6%;
+}
+footer #logo-onlineformapro{
+	width: 30%;	
+}
+footer #logo-acs{
+	width: 27%;
+}
+
+@media only screen and (max-width : 980px) {
+/* Styles pour cette Media Queries */
+	footer{
+		text-align: center;
+	}
+}
+
+
+.auteur article h3{
+	text-align: center;
+}
+
+.auteur article figure{
+	
+    margin: auto;
+}
+.auteur article figure img{
+	padding: 2%;
+	width: 40%;
+	margin: auto;
+}
+
+.auteur article p{
+	margin: 3%;
+}
+
+.auteur article{
+	background-color: rgba(255, 254, 254, 0.85);
+	/*border-top: 1px solid black;
+	border-bottom: 1px solid black;*/
+	border-right: 1px solid #bebebe;
+	padding-bottom: 1%;
+	padding-top: 1%;
+}
+
+.auteur{
+	border-top: 1px solid #bebebe;
+	border-bottom: 1px solid #bebebe;
+	background-color: #eeeeee;
+	margin-top: 3%;
+	
+	margin-bottom: 3%;
+	    padding: 0;
+}
+
+#topCircleWhite{
+	
+	position: absolute;
+    width: 12.7%;
+    top: -4%;
+    right: -10%;
+}
+
+#botCircleWhite img, #topCircleWhite img{
+	height: 50px;
+}
+
+#botCircleWhite{
+	width: 12.7%;
+	position: absolute;
+    
+    /* height: 5%; */
+    bottom: -4%;
+    
+    right: -10%;
+}
+
+.blackLine{
+	border-bottom: 1px solid #a19f9f;
+    height: 34px;
+}
+ul {
+	list-style:none;
+	
+}
+/*.presentAuteur{
+	    padding-top: 1%;
+    padding-right: 10%;
+    padding-bottom: 5%;
+    padding-left: 10%;
+}*/
+
+.listAuteur{
+	padding: 2%;
+}
+
+.unAuteur img{
+	overflow: hidden;
+	border-radius: 50%;
+}
+.unAuteur{
+	margin-top:1%;
 }
