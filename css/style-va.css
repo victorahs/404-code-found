@@ -1,0 +1,90 @@
+*{
+box-sizing: border-box;
+}
+
+
+article{
+    border-top: 1px solid black;
+}
+
+aside{
+    border-top: 1px solid black;
+    border-left: 1px solid black; 
+}
+.rsx{
+    border-top: 1px solid black;
+    padding-top: 4%;
+}
+
+.carimage{
+    position: relative;
+    
+}
+
+.imgcaroussel{
+    position: relative !important;
+    height: 227px;
+}
+
+.textlien{
+    position: absolute !important;
+    top: 50%;
+    right:50%;
+    color:#F8AF14;
+    font-size: 2em;
+}
+
+.info_article p {
+   
+    padding:0.5% 0 0.5% 0;
+    border: 1px solid black;
+   
+}
+.info_article img {
+   
+    width: 3.9%;
+    padding: 0px;
+    
+   
+}
+.info_article  {
+   
+    border-top:1px solid black;
+    border-bottom: 1px solid black;
+    margin-bottom: 2%;
+    
+}
+
+.cat{
+    height: 25vh;
+    overflow: hidden;
+}
+.text p{
+    padding-left: 15%;
+    padding-right:15%;
+    margin-top: 6%;
+    margin-bottom: 10%;
+    
+    
+}
+.persop
+{
+    padding-right: 15%;
+    padding-left: 15%;
+    MARGIN-TOP: 10%;
+    margin-bottom: 10%;
+}
+.avatar img{
+    width: 50%;
+}
+ .carousel-inner .active.left { left: -33%; }
+.carousel-inner .next        { left:  33%; }
+.carousel-inner .prev        { left: -33%; }
+.carousel-control.left,.carousel-control.right {background-image:none;}
+.item:not(.prev) {visibility: visible;}
+.item.right:not(.prev) {visibility: hidden;}
+.rightest{ visibility: visible;}
+
+.carimage{
+    padding: 0;
+}
