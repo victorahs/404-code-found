@@ -7,7 +7,7 @@
 		"host": "yohannc.student.codeur.online",
 		"username": "yohannc",  // or null for anonymous login
 		"password": "RJ2q3Cq7QP",
-		"path": "/www/404-code-found",
+		"path": "/www/404-code-found/404-code-found",
 
 		"upload_on_save": true, // set *false* if you do not want to upload on save!
 
