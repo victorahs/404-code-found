@@ -17,13 +17,16 @@ aside{
 }
 
 .carimage{
-    position: relative;
+    position: relative !important;
     
 }
 
 .imgcaroussel{
     position: relative !important;
-    height: 227px;
+    min-height: 227px;
+    max-height: 227px;
+    height:227px;
+
 }
 
 .textlien{
@@ -85,6 +88,20 @@ aside{
 .item.right:not(.prev) {visibility: hidden;}
 .rightest{ visibility: visible;}
 
+#myCarousel .item{
+   
+}
 .carimage{
-    padding: 0;
+    padding: 0 !important;
+}
+#carourou{
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+}
+.circle{
+    
+    position: absolute;
+    left: 747px;
+    z-index: 1;
+    top: -10px;
 }

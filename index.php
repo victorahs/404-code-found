@@ -19,6 +19,11 @@
     <![endif]-->
   </head>
   <body>
+    <?php
+      include "header.php";
+      
+    ?>
+    
     <div class="container" id="carourou">
     <div class="col-md-12">
         <div class="carousel slide" id="myCarousel">
@@ -87,6 +92,7 @@
     <div class="container">
         <article class="col-md-8">
             <h2 class="text-center">Article</h2>
+            <img src="img/circle-white.svg" class="circle"/>
             <div class="cat">
             <figure><img class ="img-responsive center-block" src="img/cattechno.png"</figure>
             </div>
@@ -142,6 +148,7 @@
     <div class="container">
         <article class="col-md-8">
             <h2 class="text-center">Article</h2>
+            <img src="img/circle-white.svg" class="circle"/>
             <div class="cat">
             <figure><img src="img/tech.jpg" class="img-responsive center-block"</figure>
             </div>
@@ -192,6 +199,10 @@
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
     <script src="js/script.js"></script>
+    <?php
+      include "footer.php";
+      
+    ?>
     
   </body>
 </html>

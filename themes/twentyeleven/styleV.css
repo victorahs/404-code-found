@@ -1,0 +1,40 @@
+.entry-title{
+text-align: center;
+  
+    
+    
+}
+
+.infoarticle{
+    display: inline-block;
+    padding-right: 2%;
+}
+
+.entry-content p{
+    padding-left: 15%;
+    padding-right:15%;
+    margin-top: 6%;
+    margin-bottom: 10%;
+}
+
+.entry-meta{
+    border-top: 1px solid #a19f9f;
+    border-right: 1px solid #a19f9f;
+    border-bottom: 1px solid #a19f9f;
+
+    
+}
+article{
+    border-top: 1px solid #a19f9f;
+    border-right: 1px solid #a19f9f;
+    border-bottom: 1px solid #a19f9f;
+    margin: 0px !important;
+}
+
+    
+}
+.circle{
+    position: absolute;
+    left: 572px;
+    top: -13px;
+}

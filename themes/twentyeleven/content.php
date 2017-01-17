@@ -16,19 +16,15 @@
 					<h3 class="entry-format"><?php _e( 'Featured', 'twentyeleven' ); ?></h3>
 				</hgroup>
 			<?php else : ?>
-			<h1 class="entry-title"><a href="<?php the_permalink(); ?>" rel="bookmark"><?php the_title(); ?></a></h1>
+			<h1 class="entry-title"><a href="<?php the_permalink(); ?>" rel="bookmark"><?php the_title(); ?></a><img class="circle" src="wp-content/themes/twentyeleven/images/circle-white.svg"</h1>
 			<?php endif; ?>
 
 			<?php if ( 'post' == get_post_type() ) : ?>
-			<div class="entry-meta">
-				<?php twentyeleven_posted_on(); ?>
-			</div><!-- .entry-meta -->
+			
 			<?php endif; ?>
 
 			<?php if ( comments_open() && ! post_password_required() ) : ?>
-			<div class="comments-link">
-				<?php comments_popup_link( '<span class="leave-reply">' . __( 'Reply', 'twentyeleven' ) . '</span>', _x( '1', 'comments number', 'twentyeleven' ), _x( '%', 'comments number', 'twentyeleven' ) ); ?>
-			</div>
+			
 			<?php endif; ?>
 		</header><!-- .entry-header -->
 
@@ -44,16 +40,35 @@
 		<?php endif; ?>
 
 		<footer class="entry-meta">
-			<?php $show_sep = false; ?>
+			<?php $show_sep = true; ?>
 			<?php if ( is_object_in_taxonomy( get_post_type(), 'category' ) ) : // Hide category text when not supported ?>
 			<?php
 				/* translators: used between list items, there is a space after the comma */
 				$categories_list = get_the_category_list( __( ', ', 'twentyeleven' ) );
+                $author=get_the_author( __( ', ', 'twentyeleven' ) );
+                
 				if ( $categories_list ):
 			?>
 			<span class="cat-links">
-				<?php printf( __( '<span class="%1$s">Posted in</span> %2$s', 'twentyeleven' ), 'entry-utility-prep entry-utility-prep-cat-links', $categories_list );
-				$show_sep = true; ?>
+				<div class="infoarticle">
+                <?php 
+               
+                printf( get_the_date() );
+                ?>
+                </div>
+                <div class="infoarticle">
+               <?php
+                printf( $categories_list );
+                ?>
+                </div>
+                <div class="infoarticle">
+                <?php 
+                printf( $author );
+                ?>
+                </div>
+                
+                
+				<?php $show_sep = true; ?>
 			</span>
 			<?php endif; // End if categories ?>
 			<?php endif; // End if is_object_in_taxonomy( get_post_type(), 'category' ) ?>
